@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Browser Synthesizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <h1>SYNTHAX</h1>
+    <p>pedagogical synthesizer whose syntax requires correct calculations to make sound!</p>
+    <p class="subtitle">(slopes need to be correct within 0.1 decimal. remember, which have negative slope?)</p>
+
+    <label class="scope-toggle">
+      <input type="checkbox" id="scopeToggle">
+      Show oscilloscope
+    </label>
+  </header>
+
+  <canvas id="oscilloscope" width="900" height="140" hidden></canvas>
+
+  <div id="notes"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
